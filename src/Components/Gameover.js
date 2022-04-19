@@ -1,11 +1,12 @@
+import React from 'react';
+
 const Gameover = (props) => {
     return (
-    <div class="overlay">
+    <div className="overlay">
         <div className="gameover_box">
-            <p>Game Over</p>
-            <p id="result">Score was: {props.score}</p>
-            <p id="commentResult">{props.commentResult}</p>
-            <button type="button" id="close" onClick={props.close}>close</button>
+        <h2>GAME OVER</h2>
+        <p> Score was: {props.score} </p>
+        <button onClick={props.click}>X</button>
         </div>
     </div>
     );

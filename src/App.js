@@ -20,11 +20,6 @@ class App extends Component {
 
   timer = undefined;
 
-   
-     endGame = () => {
-      console.log("game Ended");
-      }
-
      clickHandler = (i) => {
       console.log("Button is clicked", i);
       this.setState({
@@ -42,6 +37,7 @@ class App extends Component {
       this.setState({
         current: nextActive,
       });
+      
       console.log("active circle:", this.state.current);
       this.timer = setTimeout(this.nextCircle,1000);
     }
@@ -85,7 +81,7 @@ class App extends Component {
           )}
         <Button click={this.startHandler}>START</Button>
         <Button click={this.stopHandler}>END</Button>
-          {this.state.showGameOver && <Gameover/>}
+          {this.state.showGameOver && <Gameover click={this.closeHandler}/>}
       </div>
     );
   }
