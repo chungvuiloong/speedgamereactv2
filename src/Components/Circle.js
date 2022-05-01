@@ -1,4 +1,4 @@
-import styles from './Circle.module.css';
+// import styles from './Circle.module.css';
 import React from 'react';
 
 const Circle = (props) => {

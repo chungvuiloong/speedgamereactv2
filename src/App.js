@@ -1,9 +1,9 @@
 import './App.css';
 
-import Circle from './Components/Circle';
-import GameOver from './Components/GameOver';
+import Circle from    './Components/Circle';
+import GameOver from  './Components/GameOver';
 import {circles} from './Components/circles';
-import Button from './Components/Button';
+import Button from    './Components/Button';
 import React, { Component } from "react";
 import startMusic from './assets/sounds/bg.mp3';
 import stopMusic from './assets/sounds/gameover.mp3';
