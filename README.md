@@ -1,3 +1,6 @@
+# SpeedGame
+Click the button as much as you want before it goes to the other buttons!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
